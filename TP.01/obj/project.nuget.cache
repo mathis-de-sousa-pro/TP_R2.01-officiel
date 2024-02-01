@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOC/QKP1hZJrBhQqy8X8+Lr5w/ItNcj8mr2SFz/kFrZh3y5EXzkoPptq4Cx4OaFkB5+1Jiz2p8/qNzB0rWmO0Q==",
+  "success": true,
+  "projectFilePath": "D:\\projets jetbrains\\rider\\TP.R2.01\\TP.01\\TP.01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
