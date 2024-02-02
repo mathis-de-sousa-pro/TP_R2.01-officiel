@@ -12,3 +12,4 @@ D:\projets jetbrains\rider\TP.R2.01\TP.02\obj\Debug\net6.0\refint\TP.02.dll
 D:\projets jetbrains\rider\TP.R2.01\TP.02\obj\Debug\net6.0\TP.02.pdb
 D:\projets jetbrains\rider\TP.R2.01\TP.02\obj\Debug\net6.0\TP.02.genruntimeconfig.cache
 D:\projets jetbrains\rider\TP.R2.01\TP.02\obj\Debug\net6.0\ref\TP.02.dll
+D:\projets jetbrains\rider\TP.R2.01\TP.02\obj\Debug\net6.0\TP.02.sourcelink.json

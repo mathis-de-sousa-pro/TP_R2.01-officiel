@@ -2,12 +2,12 @@ namespace TP._02;
 
 public class Printer
 {
-    private double _cost;
+    private float _cost;
     private int _nbsheets;
-    private double _totalPrice;
+    private float _totalPrice;
 
     #region constructeur
-    public Printer(double prix, int nombrePages, double prixTotal)
+    public Printer(float prix, int nombrePages, float prixTotal)
     {
         _totalPrice = prixTotal;
         _nbsheets = nombrePages;
@@ -16,7 +16,7 @@ public class Printer
     #endregion
 
     #region accesseur
-    public double Cost
+    public float Cost
     {
         get => _cost;
         set => _cost = value;
@@ -28,7 +28,7 @@ public class Printer
         set => _nbsheets = value;
     }
 
-    public double TotalPrice
+    public float TotalPrice
     {
         get => _totalPrice;
         set => _totalPrice = value;
@@ -37,7 +37,7 @@ public class Printer
 
     public void TakeMoney()
     {
-        this.Cost = 0.0;
+        this.TotalPrice = 0.0f;
     }
 
     public void LoadSheets(int number)
@@ -49,25 +49,24 @@ public class Printer
     {
         
             var final = Nbsheets - nb;
+            if (final < 0) {final = 0;}
             var compteur = 0;
-            while ((Nbsheets != final) & (Nbsheets != 0))
+            while (Nbsheets != final)
             {
                 this.Nbsheets--;
                 compteur++;
 
                 if (compteur <= 10)
                 {
-                    this.Cost = 0.25;
+                    this.Cost = 0.25f;
                 }
-                else
+                else if (compteur <= 30)
                 {
-                    if (compteur <= 30)
-                    {
-                        this.Cost = 0.20;
-                    }
+                    this.Cost = 0.20f;
                 }
-
-                this.Cost = 0.10;
+                
+                else {this.Cost = 0.10f;}
+                
                 TotalPrice += Cost;
             }
     }
