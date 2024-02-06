@@ -3,7 +3,7 @@ namespace TP._03_exo_2;
 /// <summary>
 /// Represents a time
 /// </summary>
-class Time
+public class Time
 {
     private int _seconds;
 

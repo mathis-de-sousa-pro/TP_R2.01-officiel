@@ -1,10 +1,10 @@
 ﻿
-using TP._03_exo_2;
+namespace TP._03_exo_2;
 
 public static class Program
- {
-     public static void Main(string[] args)
-      {
+{
+    public static void Main(string[] args)
+    {
         #region 2 LA CLASSE TIME
 
         // Test de l'heure
