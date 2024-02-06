@@ -1,0 +1,14 @@
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\bin\Debug\net8.0\TP.03 exo 2.exe
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\bin\Debug\net8.0\TP.03 exo 2.deps.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\bin\Debug\net8.0\TP.03 exo 2.runtimeconfig.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\bin\Debug\net8.0\TP.03 exo 2.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\bin\Debug\net8.0\TP.03 exo 2.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.AssemblyInfoInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.AssemblyInfo.cs
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.csproj.CoreCompileInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\refint\TP.03 exo 2.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\TP.03 exo 2.genruntimeconfig.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel_2\TP.03\TP.03 exo 2\obj\Debug\net8.0\ref\TP.03 exo 2.dll
