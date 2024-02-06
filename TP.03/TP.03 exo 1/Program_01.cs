@@ -1,6 +1,6 @@
 ﻿namespace TP._03_exo_1;
 
-public static class Program
+public static class Program_01
 {
     public static void Main(string[] args)
     {
