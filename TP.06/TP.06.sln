@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP.06 exo1", "TP.06 exo1\TP.06 exo1.csproj", "{0CB2B505-DBE5-4466-BA61-6E31DB77FA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP.06 exo2", "TP.06 exo2\TP.06 exo2.csproj", "{272504F1-AEFF-4320-9148-E9C60EA6835C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB2B505-DBE5-4466-BA61-6E31DB77FA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB2B505-DBE5-4466-BA61-6E31DB77FA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB2B505-DBE5-4466-BA61-6E31DB77FA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB2B505-DBE5-4466-BA61-6E31DB77FA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272504F1-AEFF-4320-9148-E9C60EA6835C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272504F1-AEFF-4320-9148-E9C60EA6835C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272504F1-AEFF-4320-9148-E9C60EA6835C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272504F1-AEFF-4320-9148-E9C60EA6835C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

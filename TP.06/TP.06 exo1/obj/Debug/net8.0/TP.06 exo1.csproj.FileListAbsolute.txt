@@ -1,0 +1,15 @@
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.AssemblyInfoInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.AssemblyInfo.cs
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.csproj.CoreCompileInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.sourcelink.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\bin\Debug\net8.0\TP.06 exo1.exe
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\bin\Debug\net8.0\TP.06 exo1.deps.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\bin\Debug\net8.0\TP.06 exo1.runtimeconfig.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\bin\Debug\net8.0\TP.06 exo1.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\bin\Debug\net8.0\TP.06 exo1.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\refint\TP.06 exo1.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\TP.06 exo1.genruntimeconfig.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.06\TP.06 exo1\obj\Debug\net8.0\ref\TP.06 exo1.dll

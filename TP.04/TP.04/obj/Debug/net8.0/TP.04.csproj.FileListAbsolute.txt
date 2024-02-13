@@ -1,0 +1,15 @@
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\bin\Debug\net8.0\TP.04.exe
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\bin\Debug\net8.0\TP.04.deps.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\bin\Debug\net8.0\TP.04.runtimeconfig.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\bin\Debug\net8.0\TP.04.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\bin\Debug\net8.0\TP.04.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.AssemblyInfoInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.AssemblyInfo.cs
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.csproj.CoreCompileInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.sourcelink.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\refint\TP.04.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\TP.04.genruntimeconfig.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.04\TP.04\obj\Debug\net8.0\ref\TP.04.dll

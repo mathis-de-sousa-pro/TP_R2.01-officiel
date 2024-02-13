@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7rBkw0cagT0eAIz3tJhMtxhyLFS4M8Db4mFRMgMFCjwFD5s1SgP9jVUBA+3jhYQnIqsAgsN8XaTGzNLHRey60A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TD.04\\TD.04\\TD.04.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\malom\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
