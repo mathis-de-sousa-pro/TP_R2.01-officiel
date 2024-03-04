@@ -12,21 +12,4 @@ public class Program
         Console.WriteLine(c);
         
     }
-    
-    
-    /*
-    public static void RunTests()
-    {
-        var personTests = new PersonTests();
-        personTests.PersonConstructor_InitializesCorrectly_WithValidArguments();
-        personTests.PersonConstructor_ThrowsException_WhenFirstNameIsEmpty();
-        personTests.PersonConstructor_ThrowsException_WhenLastNameIsEmpty();
-
-        var accountTests = new AccountTests();
-        accountTests.AccountConstructor_InitializesCorrectly_WithValidArguments();
-        accountTests.Deposit_IncreasesBalance_ByCorrectAmount();
-        accountTests.Withdraw_DecreasesBalance_ByCorrectAmount();
-        accountTests.Withdraw_ThrowsException_WhenAmountExceedsBalance();
-    }
-    */
 }
