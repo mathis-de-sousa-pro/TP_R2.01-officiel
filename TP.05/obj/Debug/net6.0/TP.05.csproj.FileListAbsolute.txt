@@ -1,0 +1,30 @@
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.GeneratedMSBuildEditorConfig.editorconfig
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.AssemblyInfoInputs.cache
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.AssemblyInfo.cs
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.csproj.CoreCompileInputs.cache
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.sourcelink.json
+D:\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.exe
+D:\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.deps.json
+D:\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.runtimeconfig.json
+D:\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.dll
+D:\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.pdb
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.dll
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\refint\TP.05.dll
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.pdb
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.genruntimeconfig.cache
+D:\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\ref\TP.05.dll
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.exe
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.deps.json
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.runtimeconfig.json
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.dll
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\bin\Debug\net6.0\TP.05.pdb
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.AssemblyInfoInputs.cache
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.AssemblyInfo.cs
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.csproj.CoreCompileInputs.cache
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.sourcelink.json
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.dll
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\refint\TP.05.dll
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.pdb
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\TP.05.genruntimeconfig.cache
+C:\Users\mathi\OneDrive - Université de Bourgogne\projets jetbrains\rider\TP ASHOT\TP.05\obj\Debug\net6.0\ref\TP.05.dll
