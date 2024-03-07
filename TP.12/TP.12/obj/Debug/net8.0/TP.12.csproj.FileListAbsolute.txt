@@ -1,0 +1,15 @@
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\bin\Debug\net8.0\TP.12.exe
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\bin\Debug\net8.0\TP.12.deps.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\bin\Debug\net8.0\TP.12.runtimeconfig.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\bin\Debug\net8.0\TP.12.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\bin\Debug\net8.0\TP.12.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.AssemblyInfoInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.AssemblyInfo.cs
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.csproj.CoreCompileInputs.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.sourcelink.json
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\refint\TP.12.dll
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.pdb
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\TP.12.genruntimeconfig.cache
+C:\Users\malom\Desktop\mm076547\S2\R2_01 - Développement orienté objets\partage TP\TP_R2.01-officiel\TP.12\TP.12\obj\Debug\net8.0\ref\TP.12.dll
