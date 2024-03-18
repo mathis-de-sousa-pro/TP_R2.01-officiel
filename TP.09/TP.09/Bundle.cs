@@ -10,6 +10,9 @@
 
         // The reduction rate applied to the bundle.
         private int _reductionRate;
+        
+        // The article to be bundled.
+        private Article _article;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Bundle"/> class.
