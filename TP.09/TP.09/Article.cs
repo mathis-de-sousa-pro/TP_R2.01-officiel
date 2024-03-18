@@ -3,7 +3,7 @@
 /// <summary>
 /// Represents an article with properties such as description, unit price, and brand.
 /// </summary>
-public class Article
+public abstract class Article
 {
     #region attributs
 
@@ -26,17 +26,17 @@ public class Article
     /// <summary>
     /// Gets the description of the article.
     /// </summary>
-    public string Description  => _description;
+    public abstract string Description { get; }
 
     /// <summary>
     /// Gets the unit price of the article.
     /// </summary>
-    public float UnitPrice => _unitPrice;
+    public abstract float UnitPrice { get; }
 
     /// <summary>
     /// Gets the brand of the article.
     /// </summary>
-    public string Brand => _brand;
+    public abstract string Brand { get; }
 
     #endregion
 

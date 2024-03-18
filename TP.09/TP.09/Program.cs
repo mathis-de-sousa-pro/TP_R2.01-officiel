@@ -4,16 +4,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-        #region Testing Article class
         
-        // Create an instance of Article
-        Article article = new Article("A001", "Laptop", 1200.5f, "Dell");
-
-        // Print the details of the article
-        Console.WriteLine(article.ToString());
-        
-        #endregion
-
         #region Testing UnitArticle class
 
         // Create an instance of UnitArticle
@@ -50,16 +41,21 @@ public class Program
         Bill bill = new Bill(client);
 
         // Create UnitArticle instances for the green pens and the ream of paper
-        UnitArticle greenPen = new UnitArticle("GreenPen00", "boc", 1.05f, "green pen");
-        UnitArticle ream2 = new UnitArticle("Ream500", "ClairRuisseau", 4.45f, "500 sheets of white paper");
+        UnitArticle greenPen = new UnitArticle("GreenPen00", "green pen", 1.05f, "boc");
+        UnitArticle ream = new UnitArticle("Ream500", "500 sheets of white paper", 4.45f, "ClairRuisseau");
 
         // Create Bundle instances for the bundle of blue pens and the bundle of elastics
-        Bundle bluePenBundle = new Bundle("BluePen00", 20, new UnitArticle("BluePen00", "boc", 0.82f, "blue pen"), 6);
-        Bundle elasticBundle = new Bundle("ELA01", 1000, new UnitArticle("ELA01", "Latex", 0.07f, "simple yellow elastic"), 10);
+        UnitArticle bluePen = new UnitArticle("BluePen00", "blue pen", 1.05f, "boc");
+        UnitArticle elastic = new UnitArticle("ELA01", "simple yellow elastic", 0.07f, "Latex");
+        
+        //
+        Bundle bluePenBundle = new Bundle("BluePen00", 20, bluePen, 6);
+        Bundle elasticBundle = new Bundle("ELA01", 1000, elastic, 10);
 
         // Add the articles and bundles to the bill
         bill.AddArticle(greenPen);
-        bill.AddArticle(ream2);
+        bill.AddArticle(greenPen);
+        bill.AddArticle(ream);
         bill.AddArticle(bluePenBundle);
         bill.AddArticle(elasticBundle);
 
