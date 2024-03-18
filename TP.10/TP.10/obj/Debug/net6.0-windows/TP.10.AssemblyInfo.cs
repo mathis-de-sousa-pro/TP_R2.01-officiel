@@ -17,6 +17,8 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("TP.10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP.10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
