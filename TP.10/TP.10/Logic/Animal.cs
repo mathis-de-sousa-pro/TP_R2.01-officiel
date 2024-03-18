@@ -1,76 +1,59 @@
-﻿namespace TD_8;
+﻿using System.Runtime.Serialization;
 
-/// <summary>
-/// Represents an abstract Animal class.
-/// </summary>
-public abstract class Animal
+namespace TP
 {
-    #region attributes
-
-    /// <summary>
-    /// Represents the name of the animal.
-    /// </summary>
-    private string _name;
-
-    /// <summary>
-    /// Represents the species of the animal.
-    /// </summary>
-    private string _species;
-
-    /// <summary>
-    /// Represents the food of the animal.
-    /// </summary>
-    private string _food;
-
-    #endregion
-
-    #region properties
-
-    /// <summary>
-    /// Gets the name of the animal.
-    /// </summary>
-    public string Name => _name;
-
-    /// <summary>
-    /// Abstract method to get the species of the animal.
-    /// </summary>
-    public abstract string Species();
-
-    /// <summary>
-    /// Abstract method to get the food of the animal.
-    /// </summary>
-    public abstract string Food();
-
-    #endregion
-
-    #region constructor
-
-    /// <summary>
-    /// Initializes a new instance of the <see cref="Animal"/> class.
-    /// </summary>
-    /// <param name="name">The name of the animal.</param>
-    public Animal(string name)
+    [DataContract]
+    [KnownType(typeof(Cat))]
+    [KnownType(typeof(Cocker))]
+    [KnownType(typeof(Eagle))]
+    [KnownType(typeof(Human))]
+    [KnownType(typeof(Sheperd))]
+    [KnownType(typeof(Vulture))]
+    public abstract class Animal
     {
-        _name = name;
+        /// <summary>
+        /// Le nom de l'animal
+        /// </summary>
+        [DataMember]
+        private string _name;
+
+        /// <summary>
+        /// Le nom de l'animal
+        /// </summary>
+        public string Name {get => _name; set => _name = value; }
+
+        /// <summary>
+        /// Espece de l'animal
+        /// </summary>
+        public abstract string Species { get; }
+
+        /// <summary>
+        /// La nourriture de l'animal, doit comporter l'article devant
+        /// </summary>
+        public abstract string Food { get; }
+
+        /// <summary>
+        /// Constructeur par defaut
+        /// </summary>
+        /// <param name="name">Nom de l'animal</param>
+        public Animal(string name)
+        {
+            this._name = name;
+        }
+
+        /// <summary>
+        /// Convertie l'instance de la classe Animal en string
+        /// </summary>
+        /// <returns>Son nom puis son espece, puis sa nourriture en une phrase</returns>
+        public override string ToString()
+        {
+            return $"My name is { this.Name}, I'm a dog ({this.Species}) and I eat {this.Food}.";
+        }
+
+        /// <summary>
+        /// Fait crier l'animal
+        /// </summary>
+        public abstract void Shout();
+
     }
-
-    #endregion
-
-    #region methods
-
-    /// <summary>
-    /// Returns a string that represents the current object.
-    /// </summary>
-    /// <returns>A string that represents the current object.</returns>
-    public override string ToString()
-    {
-        return $"My name is {Name}, I'm a {Species()} and I eat {Food()}";
-    }
-
-    /// <summary>
-    /// Abstract method for the animal to shout.
-    /// </summary>
-    public abstract void Shout();
-
-    #endregion
 }

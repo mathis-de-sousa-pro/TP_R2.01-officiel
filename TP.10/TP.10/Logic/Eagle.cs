@@ -1,18 +1,27 @@
-﻿namespace TD_8;
+﻿using System.Runtime.Serialization;
 
-public class Eagle : Bird
+namespace TP
 {
-    public Eagle(string name) : base(name)
+    /// <summary>
+    /// Classe Eagle, heriant de Bird
+    /// </summary>
+    [DataContract]
+    public class Eagle : Bird
     {
-    }
+        /// <summary>
+        /// Renvoit la nourriture de l'aigle
+        /// </summary>
+        public override string Food { get => "des rongeurs"; }
 
-    public override string Species()
-    {
-        throw new NotImplementedException();
-    }
+        /// <summary>
+        /// Renvoit l'espece de l'aigle
+        /// </summary>
+        public override string Species { get => "aigle"; }
 
-    public override string Food()
-    {
-        throw new NotImplementedException();
+        /// <summary>
+        /// Constructeur par defaut
+        /// </summary>
+        /// <param name="name">Nom de l'aigle</param>
+        public Eagle(string name) : base(name) { }
     }
 }

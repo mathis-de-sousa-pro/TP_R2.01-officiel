@@ -1,23 +1,22 @@
-﻿namespace TD_8;
+﻿using System.Runtime.Serialization;
 
-public class Cocker : Dog
+namespace TP
 {
-    public Cocker(string name) : base(name)
+    /// <summary>
+    /// Classe Cocker, heriant de Dog
+    /// </summary>
+    [DataContract]
+    public class Cocker : Dog
     {
-    }
+        /// <summary>
+        /// Race du Cocker
+        /// </summary>
+        public override string Breed { get => "cocker"; }
 
-    public override string Species()
-    {
-        throw new NotImplementedException();
-    }
-
-    public override string Food()
-    {
-        throw new NotImplementedException();
-    }
-
-    public override void Breed()
-    {
-        throw new NotImplementedException();
+        /// <summary>
+        /// Constructeur par defaut
+        /// </summary>
+        /// <param name="name">Nom du Cocker</param>
+        public Cocker(string name) : base(name) { }
     }
 }

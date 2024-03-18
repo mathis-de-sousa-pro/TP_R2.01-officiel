@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-
-namespace TP10.Logic
+﻿namespace TP
 {
     /// <summary>
     /// Fabrique de la classe Animal
@@ -30,7 +22,6 @@ namespace TP10.Logic
                 case "cocker": animal = new Cocker(name); break;
                 case "sheperd": animal = new Sheperd(name); break;
                 case "cat": animal = new Cat(name); break;
-                case "panda":  animal = new Panda(name); break;
             }
 
             return animal;
@@ -42,7 +33,7 @@ namespace TP10.Logic
         /// <returns>Array de string</returns>
         public string[] ListSpecies()
         {
-            return new string[] { "cocker", "eagle", "human", "sheperd", "vulture", "cat", "panda" };
+            return new string[] { "cocker", "eagle", "human", "sheperd", "vulture", "cat" };
         }
 
     }

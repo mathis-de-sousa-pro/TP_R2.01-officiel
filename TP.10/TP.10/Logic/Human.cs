@@ -1,49 +1,36 @@
-﻿namespace TD_8;
+﻿using System.Runtime.Serialization;
 
-/// <summary>
-/// Represents a Human class that inherits from the Animal class.
-/// </summary>
-public class Human : Animal
+namespace TP
 {
-    #region Constructor
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="Human"/> class.
+    /// Classe Human, heriant de Animal
     /// </summary>
-    /// <param name="name">The name of the human.</param>
-    public Human(string name) : base(name)
+    [DataContract]
+    public class Human : Animal
     {
+        /// <summary>
+        /// Renvoit l'espece de l'humain
+        /// </summary>
+        public override string Species { get => "humain"; }
+
+        /// <summary>
+        /// Renvoit la nourriture de l'humain
+        /// </summary>
+        public override string Food { get => "du steak-frites"; }
+
+        /// <summary>
+        /// Constructeur par defaut
+        /// </summary>
+        /// <param name="name">Nom de l'humain</param>
+        public Human(string name) : base(name) { }
+
+        /// <summary>
+        /// Fait crier l'humain
+        /// </summary>
+        public override void Shout()
+        {
+            /**/
+        }
     }
-
-    #endregion
-
-    #region Methods
-
-    /// <summary>
-    /// Overrides the Species method from the Animal class.
-    /// </summary>
-    /// <returns>A string representing the species of the human.</returns>
-    public override string Species()
-    {
-        throw new NotImplementedException();
-    }
-
-    /// <summary>
-    /// Overrides the Food method from the Animal class.
-    /// </summary>
-    /// <returns>A string representing the food of the human.</returns>
-    public override string Food()
-    {
-        throw new NotImplementedException();
-    }
-
-    /// <summary>
-    /// Overrides the Shout method from the Animal class.
-    /// </summary>
-    public override void Shout()
-    {
-        Console.WriteLine("Hello");
-    }
-
-    #endregion
 }

@@ -1,41 +1,49 @@
-﻿namespace TD_8;
+﻿using System.Runtime.Serialization;
 
-/// <summary>
-/// Represents a Dog class that inherits from the Animal class.
-/// </summary>
-public abstract class Dog : Animal
+namespace TP
 {
-    #region Attributes
-
     /// <summary>
-    /// Represents the breed of the dog.
+    /// Classe abstraite Dog, heriant de Animal
     /// </summary>
-    private string _breed;
-
-    #endregion
-
-    #region Methods
-
-    /// <summary>
-    /// Abstract method to get the breed of the dog.
-    /// </summary>
-    public abstract void Breed();
-
-    /// <summary>
-    /// Initializes a new instance of the <see cref="Dog"/> class.
-    /// </summary>
-    /// <param name="name">The name of the dog.</param>
-    protected Dog(string name) : base(name)
+    [DataContract]
+    public abstract class Dog : Animal
     {
-    }
+        /// <summary>
+        /// Espece du chien
+        /// </summary>
+        public override string Species { get => $"chien"; }
 
-    /// <summary>
-    /// Overrides the Shout method from the Animal class.
-    /// </summary>
-    public override void Shout()
-    {
-        Console.WriteLine("Woof woof");
-    }
+        /// <summary>
+        /// Race du chien
+        /// </summary>
+        public abstract string Breed { get; }
 
-    #endregion
+        /// <summary>
+        /// La nourriture du chien
+        /// </summary>
+        public override string Food { get => "de la viande"; }
+
+        /// <summary>
+        /// Constructeur par defaut
+        /// </summary>
+        /// <param name="name">Nom du chien</param>
+        public Dog(string name) : base(name) { }
+
+        /// <summary>
+        /// Fait aboyer le chien
+        /// </summary>
+        public override void Shout()
+        {
+            /**/
+        }
+
+        /// <summary>
+        /// Convertie l'instance de la classe Dog en string
+        /// </summary>
+        /// <returns>Son nom puis son espece, puis sa nourriture en une phrase</returns>
+        public override string ToString()
+        {
+            return $"{this.Name} est un {this.Species} ({this.Breed}), et mange {this.Food}";
+        }
+    }
 }
