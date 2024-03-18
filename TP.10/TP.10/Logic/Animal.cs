@@ -47,7 +47,7 @@ namespace TP
         /// <returns>Son nom puis son espece, puis sa nourriture en une phrase</returns>
         public override string ToString()
         {
-            return $"My name is { this.Name}, I'm a dog ({this.Species}) and I eat {this.Food}.";
+            return $"My name is { this.Name}, I'm a {this.Species} and I eat {this.Food}.";
         }
 
         /// <summary>
