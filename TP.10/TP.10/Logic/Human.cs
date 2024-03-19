@@ -28,9 +28,6 @@ namespace TP
         /// <summary>
         /// Fait crier l'humain
         /// </summary>
-        public override void Shout()
-        {
-            /**/
-        }
+        public override void Shout() {}
     }
 }
