@@ -5,7 +5,7 @@
 /// </summary>
 public class Person
 {
-    private string _lastName;
+    private string? _lastName;
 
     /// <summary>
     /// Gets or sets the first name of the person.

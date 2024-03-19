@@ -13,14 +13,20 @@ public class Bundle : Article
         // The reduction rate applied to the bundle.
         private int _reductionRate;
         
+        // The article to be bundled.
+        private Article _article;
+        
         #endregion
 
         #region accesseurs
-        
+
         /// <summary>
         /// Gets the description of the unit article. Inherited from the Article class.
         /// </summary>
-        public override string Description => _article.Description+$" x {_number}";
+        public override string Description
+        {
+             get => _article.Description +" x "+ _number.ToString();
+        }       
         
         /// <summary>
         /// Gets the unit price of the unit article. Inherited from the Article class.
@@ -36,8 +42,7 @@ public class Bundle : Article
         
         #region construceurs
         
-        // The article to be bundled.
-        private Article _article;
+        
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Bundle"/> class.
@@ -47,7 +52,7 @@ public class Bundle : Article
         /// <param name="article">The article to be bundled.</param>
         /// <param name="rate">The reduction rate to be applied to the bundle.</param>
         public Bundle(string reference,int nb, Article article, int rate)
-            : base(reference, article.Description, article.UnitPrice, article.Brand)
+            : base(reference)
         {
             _number = nb;
             _reductionRate = rate;
