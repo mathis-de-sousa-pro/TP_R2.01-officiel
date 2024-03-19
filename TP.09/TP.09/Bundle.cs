@@ -31,6 +31,7 @@ public class Bundle : Article
         /// <summary>
         /// Gets the unit price of the unit article. Inherited from the Article class.
         /// </summary>
+        // ReSharper disable once PossibleLossOfFraction
         public override float UnitPrice => _article.UnitPrice * _number * (1 - _reductionRate / 100);
         
         /// <summary>

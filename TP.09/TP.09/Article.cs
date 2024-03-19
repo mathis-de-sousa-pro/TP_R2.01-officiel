@@ -8,7 +8,7 @@ public abstract class Article
     #region attributs
 
     // référence de l'article
-    private string _reference;
+    private readonly string _reference;
 
     #endregion
 
@@ -37,9 +37,6 @@ public abstract class Article
     /// Initializes a new instance of the <see cref="Article"/> class.
     /// </summary>
     /// <param name="reference">The reference of the article.</param>
-    /// <param name="description">The description of the article.</param>
-    /// <param name="unitPrice">The unit price of the article.</param>
-    /// <param name="brand">The brand of the article.</param>
     public Article(string reference)
     {
         _reference = reference;

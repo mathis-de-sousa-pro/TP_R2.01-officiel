@@ -1,8 +1,8 @@
-﻿using TP._09;
+﻿namespace TP._09;
 
 public class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         
         #region Testing UnitArticle class
