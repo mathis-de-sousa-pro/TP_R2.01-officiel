@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP10\\TP10\\TP10.csproj": {}
+    "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP.10\\TP10\\TP10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP10\\TP10\\TP10.csproj": {
+    "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP.10\\TP10\\TP10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP10\\TP10\\TP10.csproj",
+        "projectUniqueName": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP.10\\TP10\\TP10.csproj",
         "projectName": "TP10",
-        "projectPath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP10\\TP10\\TP10.csproj",
+        "projectPath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP.10\\TP10\\TP10.csproj",
         "packagesPath": "C:\\Users\\malom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP10\\TP10\\obj\\",
+        "outputPath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel\\TP.10\\TP10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
