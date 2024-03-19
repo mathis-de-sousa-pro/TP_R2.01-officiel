@@ -12,6 +12,7 @@ public class UnitArticle : Article
     private string _brand;
 
     #endregion
+    
     #region constructeurs
 
     /// <summary>

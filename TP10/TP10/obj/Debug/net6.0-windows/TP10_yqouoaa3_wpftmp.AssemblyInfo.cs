@@ -10,13 +10,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TD 8")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TP10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40c47ed68e3d6e9ff28d10e14384aa0aa9d045cb")]
-[assembly: System.Reflection.AssemblyProductAttribute("TD 8")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TD 8")]
+[assembly: System.Reflection.AssemblyProductAttribute("TP10")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TP10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 
