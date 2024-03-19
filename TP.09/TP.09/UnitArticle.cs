@@ -23,7 +23,7 @@ public class UnitArticle : Article
     /// <param name="unitPrice">The unit price of the unit article.</param>
     /// <param name="brand">The brand of the unit article.</param>
     public UnitArticle(string reference, string description, float unitPrice, string brand)
-        : base(reference, description, unitPrice, brand)
+        : base(reference)
     {
         _description = description;
         _unitPrice = unitPrice;
