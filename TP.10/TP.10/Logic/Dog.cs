@@ -32,18 +32,12 @@ namespace TP
         /// <summary>
         /// Fait aboyer le chien
         /// </summary>
-        public override void Shout()
-        {
-            /**/
-        }
+        public override void Shout() { /**/ }
 
         /// <summary>
         /// Convertie l'instance de la classe Dog en string
         /// </summary>
         /// <returns>Son nom puis son espece, puis sa nourriture en une phrase</returns>
-        public override string ToString()
-        {
-            return $"My name is {this.Name}, I'm a {this.Species} ({this.Breed}) and I eat {this.Food}";
-        }
+        public override string ToString() => $"My name is {this.Name}, I'm a {this.Species} ({this.Breed}) and I eat {this.Food}";
     }
 }
