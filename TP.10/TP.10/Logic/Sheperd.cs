@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
 
-namespace TP
-{
+namespace TP;
+
     /// <summary>
     /// Classe Sheperd, heristant de Dog
     /// </summary>
@@ -19,10 +19,13 @@ namespace TP
         /// </summary>
         /// <param name="name">Nom du sheperd</param>
         public Sheperd(string name) : base(name) { }
-
-        public override string ToString()
-        {
-            return $"My name is {this.Name}, I'm a {this.Species} ({this.Breed}) and I eat {this.Food}";
-        }
+        
+        /// <summary>
+        /// Overrides the ToString method for the Sheperd class.
+        /// </summary>
+        /// <returns>
+        /// A string representation of the Sheperd object, including its name, species, breed, and food.
+        /// </returns>
+        public override string ToString() => $"My name is {this.Name}, I'm a {this.Species} ({this.Breed}) and I eat {this.Food}";        
     }
-}
+
