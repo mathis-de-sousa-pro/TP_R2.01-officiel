@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP.11")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f584a5b642b6ca17d16ebcd6f648e82b6823091f")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a551ff3ebc249662a2c9cdd2da24d295652df30")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("TP.11")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP.11")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
