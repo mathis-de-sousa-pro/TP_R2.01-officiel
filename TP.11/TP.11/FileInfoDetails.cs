@@ -1,4 +1,7 @@
-﻿namespace TP._11;
+﻿using System.Diagnostics;
+using System.IO.Compression;
+
+namespace TP._11;
 
 /// <summary>
 /// Represents detailed information about a file.
@@ -84,6 +87,7 @@ public class FileInfoDetails
 
     #endregion
 
+    #region constructors
 
     /// <summary>
     /// Initializes a new instance of the FileInfoDetails class.
@@ -102,6 +106,10 @@ public class FileInfoDetails
         LastAccessTime = file.LastAccessTime;
         FileSize = file.Length;
     }
+
+    #endregion
+
+    #region methods
 
     /// <summary>
     /// Returns a string that represents the current object.
@@ -125,7 +133,10 @@ public class FileInfoDetails
     /// Returns a string that represents the current FileInfoDetails object.
     /// </summary>
     /// <returns>A string that represents the current FileInfoDetails object.</returns>
-    public string GetFileInfo() => FileName + "      " + FileSize + "       " + CreationTime;
+    public string GetFileInfo()
+    {
+        return FileName + "      " + FileSize + "       " + CreationTime;
+    }
 
 
     /// <summary>
@@ -135,13 +146,13 @@ public class FileInfoDetails
     /// <returns>A string representation of each file in the directory.</returns>
     public static string ProcessDirectory(string directoryPath)
     {
-        DirectoryInfo directoryInfo = new DirectoryInfo(directoryPath);
-        FileInfo[] files = directoryInfo.GetFiles();
-        string result = "";
+        var directoryInfo = new DirectoryInfo(directoryPath);
+        var files = directoryInfo.GetFiles();
+        var result = "";
 
-        foreach (FileInfo file in files)
+        foreach (var file in files)
         {
-            FileInfoDetails fileInfoDetails = new FileInfoDetails(file);
+            var fileInfoDetails = new FileInfoDetails(file);
             result += fileInfoDetails.GetFileInfo() + "\n";
         }
 
@@ -154,13 +165,13 @@ public class FileInfoDetails
     public static void ExtractFilePathInfoUsingFileInfoDetails()
     {
         Console.Write("Veuillez entrer un chemin de fichier complet : ");
-        string filePath = Console.ReadLine();
+        var filePath = Console.ReadLine();
 
         // Create a FileInfo object
-        FileInfo file = new FileInfo(filePath);
+        var file = new FileInfo(filePath);
 
         // Create a FileInfoDetails object using the FileInfo object
-        FileInfoDetails fileInfoDetails = new FileInfoDetails(file);
+        var fileInfoDetails = new FileInfoDetails(file);
 
         Console.WriteLine($"Chemin du répertoire : {fileInfoDetails.DirectoryName}");
         Console.WriteLine($"Nom du fichier : {fileInfoDetails.FileName}");
@@ -175,17 +186,17 @@ public class FileInfoDetails
     {
         // Ask the user to enter the path of the original file
         Console.Write("Veuillez entrer le chemin du fichier original : ");
-        string originalFilePath = Console.ReadLine();
+        var originalFilePath = Console.ReadLine();
 
         // Ask the user to enter the new name of the file
         Console.Write("Veuillez entrer le nouveau nom du fichier : ");
-        string newFileName = Console.ReadLine();
+        var newFileName = Console.ReadLine();
 
         // Get the directory of the original file
-        string directory = Path.GetDirectoryName(originalFilePath);
+        var directory = Path.GetDirectoryName(originalFilePath);
 
         // Combine the directory with the new file name to get the new file path
-        string newFilePath = Path.Combine(directory, newFileName);
+        var newFilePath = Path.Combine(directory, newFileName);
 
         // Copy the original file to the new file path
         File.Copy(originalFilePath, newFilePath);
@@ -201,17 +212,17 @@ public class FileInfoDetails
     {
         // Ask the user to enter the path of the original file
         Console.Write("Veuillez entrer le chemin du fichier original : ");
-        string originalFilePath = Console.ReadLine();
+        var originalFilePath = Console.ReadLine();
 
         // Ask the user to enter the path of the new directory
         Console.Write("Veuillez entrer le chemin du nouveau répertoire : ");
-        string newDirectory = Console.ReadLine();
+        var newDirectory = Console.ReadLine();
 
         // Get the name of the original file
-        string fileName = Path.GetFileName(originalFilePath);
+        var fileName = Path.GetFileName(originalFilePath);
 
         // Combine the new directory with the file name to get the new file path
-        string newFilePath = Path.Combine(newDirectory, fileName);
+        var newFilePath = Path.Combine(newDirectory, fileName);
 
         // Copy the original file to the new file path
         File.Copy(originalFilePath, newFilePath);
@@ -219,7 +230,7 @@ public class FileInfoDetails
         // Print a message to indicate that the file has been copied
         Console.WriteLine($"Copy {originalFilePath} to {newFilePath} done.");
     }
-    
+
     /// <summary>
     ///  Displays the content of a file in hexadecimal.
     /// </summary>
@@ -227,39 +238,59 @@ public class FileInfoDetails
     {
         // Ask the user to enter the path of the file
         Console.Write("Veuillez entrer le chemin du fichier : ");
-        string filePath = Console.ReadLine();
+        var filePath = Console.ReadLine();
 
         // Open the file
-        using (FileStream fileStream = File.OpenRead(filePath))
+        using (var fileStream = File.OpenRead(filePath))
         {
             // Create a buffer to hold the bytes
-            byte[] buffer = new byte[1];
+            var buffer = new byte[1];
 
             // Read the file byte by byte
             while (fileStream.Read(buffer, 0, buffer.Length) > 0)
-            {
                 // Convert the byte to hexadecimal and print it
                 Console.Write(buffer[0].ToString("X2") + " ");
-            }
         }
 
         Console.WriteLine();
     }
-    
-/// <summary>
-///  Displays the content of a file.
-///  </summary>
+
+    /// <summary>
+    ///  Displays the content of a file.
+    /// </summary>
     public static void DisplayFileContent()
     {
         // Ask the user to enter the path of the file
         Console.Write("Veuillez entrer le chemin du fichier : ");
-        string filePath = Console.ReadLine();
+        var filePath = Console.ReadLine();
 
         // Open the file and read its content
-        using (StreamReader reader = new StreamReader(filePath))
+        Debug.Assert(filePath != null, nameof(filePath) + " != null");
+        using var reader = new StreamReader(filePath);
+        var content = reader.ReadToEnd();
+        Console.WriteLine(content);
+    }
+
+    public static void DisplayZipFileContent()
+    {
+        // Ask the user to enter the path of the zip file
+        Console.Write("Veuillez entrer le chemin du fichier .zip : ");
+        string zipFilePath = Console.ReadLine();
+
+        // Open the zip file
+        using (ZipArchive archive = ZipFile.OpenRead(zipFilePath))
         {
-            string content = reader.ReadToEnd();
-            Console.WriteLine(content);
+            // Iterate over each entry in the zip file
+            foreach (ZipArchiveEntry entry in archive.Entries)
+            {
+                // Print the name, original size and compressed size of the entry
+                Console.WriteLine($"Nom : {entry.FullName}");
+                Console.WriteLine($"Taille originale : {entry.Length} bytes");
+                Console.WriteLine($"Taille compressée : {entry.CompressedLength} bytes");
+                Console.WriteLine("--------------------------------------------------");
+            }
         }
     }
+
+    #endregion
 }
