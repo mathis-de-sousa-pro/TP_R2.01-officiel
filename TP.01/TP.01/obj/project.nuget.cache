@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L5oMaBc9lZOmbmQnUQ+pJhq9s0JYI0MINRxkkHyyuPg5afCSIx76t3PpdSKJUtA/sb4VBdYGcm1HoqXUYsIuEw==",
+  "dgSpecHash": "TsPgZ1LE4DUTq+xb5xDoauK7foJs+mHRs9vECErePyVZEqliClO4lcfSmwOl6eebGOcnj+0MLfLNzBnSU58pcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malom\\Desktop\\mm076547\\S2\\R2_01 - Développement orienté objets\\partage TP\\TP_R2.01-officiel_2\\TP.01\\TP.01\\TP.01.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\malom\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\malom\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\malom\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\malom\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\projets jetbrains\\rider\\TP_R2.01-officiel\\TP.01\\TP.01\\TP.01.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
